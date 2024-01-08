@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
  
-  var num = 2;// variable for the number of squares
+  var num = 10;// variable for the number of squares
   var sideLen = windowWidth/num;// variable for the side length of each square 
  
   
