@@ -1,12 +1,22 @@
+// adding GIF to my grid 
+
+let gif;
+
+function preload (){
+gif = load image ('assets/Packard800.gif');
+}
+
 function setup() {
+	// runs one time
   createCanvas(windowWidth, windowHeight);
     
-  strokeWeight(1);
-  fill ('magenta');
-  background ("pink" )
+  
 }
 
 function draw() {
+// runs in a loop
+
+background ('pink');
  
   var num = 10;// variable for the number of squares
   var sideLen = windowWidth/num;// variable for the side length of each square 
@@ -16,12 +26,7 @@ function draw() {
   
     for (var x = 0; x < windowWidth; x = x+sideLen)  {//loop to create a row squares in the x direction}
   
-   quad
-  (x, y,
-  x + sideLen,y,
-  x + sideLen,y + sideLen,
-  x, y + sideLen
- );//move 300 pixels in the x direction
+  image (gif, x, y, sideLen, sideLen);
   
     }
   }
@@ -31,4 +36,3 @@ function draw() {
 function windowResized (){
   resizeCanvas (windowWidth, windowHeight);
 }
-
