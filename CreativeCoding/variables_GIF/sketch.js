@@ -1,18 +1,22 @@
+// adding GIF to my grid 
+
 let gif;
 
 function preload (){
-gif = load image ('assets/PackardGIF');
+gif = load image ('assets/Packard800.gif');
 }
 
 function setup() {
+	// runs one time
   createCanvas(windowWidth, windowHeight);
     
-  strokeWeight(1);
-  fill ('magenta');
-  background ("pink" )
+  
 }
 
 function draw() {
+// runs in a loop
+
+background ('pink');
  
   var num = 10;// variable for the number of squares
   var sideLen = windowWidth/num;// variable for the side length of each square 
