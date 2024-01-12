@@ -3,7 +3,7 @@
 let gif;
 
 function preload (){
-gif = load image ('assets/Packard800.gif');
+gif = loadImage ('assets/Packard800.gif');
 }
 
 function setup() {
