@@ -11,23 +11,24 @@ canvas {
   z-index: -1;
 }
 img {
-  border: 5px solid #000;
+  border: 5px solid pink;
 }
+
 h1{
-  color: lightgreen;
+  color: pink;
      position: absolute;
      left: 50%;
      transform: translateX(-50%) translateY(-50%);
      text-align: center;
      top:1vw;
-   	 display: inline; background: rgb(255, 255, 255);
      font-size:3vw;
 }
 h3{
-color: lightgreen;
-display: inline; background: rgb (255, 255, 255);
+color: pink;
 font-size:2vw;
+border: green;
 }
+
 p{
     position: absolute;
     font-size: 0.875em;
@@ -35,21 +36,22 @@ p{
     transform: translateX(-50%) translateY(-50%);
     text-align:center;
     top:  4vw;
-    display: inline; background: rgb(255, 255, 255);
     font-size:1.5vw;
 }
 table{
   position: absolute;
   z-index: 1;
   width:100%;
-  top: 105.5vw;
+  top: 5.5vw;
 }
+
 td {
     width: 33vw;
     height: 33vw;
     vertical-align: baseline;
     padding-top:10px;
     text-align:center;
+    
     }
 
 .container{
